@@ -87,3 +87,32 @@ const LightButton = styled(MdOutlineDarkMode)`
     font-size: 30px;
 `;
 ```
+
+
+## 깃 페이지 만드는 순서
+1. 터미널 yarn add gh-pages
+
+2. package.json 파일에서 'homepage' 추가
+```
+hp
+https://계정이름.github.io/생성한 리퍼지스토리 이름/
+https://ji1128.github.io/newdarkmode
+```
+```javascript
+  "name": "ch8",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://ji1128.github.io/darkmode",
+```
+
+3. package.json 파일에서 'scripts' 추가
+```javascript
+ "predeploy": "npm run build",
+ "deploy": "gh-pages -d build"
+ ```
+
+ 4. git push 완료하기
+
+ 5. 터미널에서 yarn deploy
+
+ 6. 시간이 지나면 알아서 깃허브 페이지 생성됨 (F5 눌러서 새로고침하여 확인)
