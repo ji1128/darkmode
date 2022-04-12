@@ -2,11 +2,12 @@
   "name": "ch8",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ji1128.github.io/darkmode",
+  "homepage": "https://ji1128.github.io/newdarkmode",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "gh-pages": "^3.2.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
